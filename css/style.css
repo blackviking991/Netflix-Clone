@@ -423,7 +423,7 @@ img {
 @media (max-width: 700px) {
   .showcase::after {
     background: rgba(0, 0, 0, 0.6);
-    box-shadow: inset 80px 80px 150px #000000, inset -80px -80px 150px #000000;
+    /* box-shadow: inset 80px 80px 150px #000000, inset -80px -80px 150px #000000; */
   }
 
   .showcase-content h1 {
@@ -434,6 +434,16 @@ img {
   .showcase-content p {
     font-size: 1rem;
   }
+  /* Parallax */
+  .container-parallax {
+    overflow: hidden;
+    width: 100%;
+  }
+  .parallax-window {
+    min-height: 500px;
+    background: transparent;
+  }
+
   .Trailers {
     border-top: thick;
     border-style: solid;
